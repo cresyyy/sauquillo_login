@@ -1,0 +1,78 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+body {
+    font-family: 'Helvetica';
+    font-size: 1.5rem;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px 600px 10px;
+    padding-bottom: 60px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color:	#0bdbb6;
+    font-size: 38px;
+}
+
+h2{
+    color:	rgb(32, 32, 32);
+    font-size: 24px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 1.2em;
+}
+
+#usernameReg{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 231, 231);
+}
+
+#passwordReg{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(228, 231, 231);
+}
+
+#submit{
+    background-color: 	#0bdbb6;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+#submit:hover{
+    background-color: #08a789;
+    color: white;
+}
+
+#login{
+    background-color: 	#0bdbb6;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+#login:hover{
+    background-color: #08a789;
+    color: white;
+}
+
+.welcomePanel{
+    text-align: center;
+    padding-top: 50px;
+}
